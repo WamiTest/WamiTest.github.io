@@ -9,6 +9,46 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <div class="contacts-wrapper fullscreen-background">
+      <div class="contacts"> 
+        <div class="contacts-close"> <i class="fas fa-times"></i></div>
+        <div class="contacts-content"> 
+          <div class="contacts-content-border"> </div>
+          <h1 class="contacts-content-title">Контакты</h1>
+          <h2 class="contacts-content-company">Eurostaff Group LLC</h2>
+          <div class="contacts-content-icons"> <a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+          <div class="contacts-content-info-wrap">
+            <div class="contacts-content-info"> 
+              <div class="contacts-content-info-left"> 
+                <p>Контакты:</p>
+              </div>
+              <div class="contacts-content-info-right">
+                <div class="contacts-content-info-item"><img src="./img/icons/phone.svg" alt="call"><a>+38 (068) 855-51-11 (Viber) </a></div>
+                <div class="contacts-content-info-item"><img src="./img/icons/phone.svg" alt="call"><a href="tel:+380982568996">+38 (098) 256-89-96</a></div>
+                <div class="contacts-content-info-item"> <img src="./img/icons/mail.svg" alt="call"><a href="mailto:Eurostaffgroup@gmail.com">Eurostaffgroup@gmail.com</a></div>
+              </div>
+            </div>
+            <div class="contacts-content-info"> 
+              <div class="contacts-content-info-left"> 
+                <p>Адрес:</p>
+              </div>
+              <div class="contacts-content-info-right">
+                <div class="contacts-content-info-item"><img src="./img/icons/location.svg" alt="call"><a>г. Харьков, переулок Мало-Панасовский 4/7</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="contacts-content-form-wrapper">
+            <h3 class="contacts-content-form-title">Возникли вопросы, задавай!</h3>
+            <form id="contacts-content-form">
+              <input class="footer-content-right-field" name="name" type="text" placeholder="Имя">
+              <input class="footer-content-right-field" type="text" placeholder="Email">
+              <textarea name="question" placeholder="Вопрос"></textarea>
+              <button class="global-btn global-btn-orange" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <header>
       <div class="wrapper header-wrap">
         <div class="header-logo"> <a href="index.html"><img src="./img/logo.svg" alt="logo"></a></div>
@@ -34,44 +74,6 @@
         </div>
       </div>
     </header>
-    <div class="contacts"> 
-      <div class="contacts-close"> <i class="fas fa-times"></i></div>
-      <div class="contacts-content"> 
-        <div class="contacts-content-border"> </div>
-        <h1 class="contacts-content-title">Контакты</h1>
-        <h2 class="contacts-content-company">Eurostaff Group LLC</h2>
-        <div class="contacts-content-icons"> <a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
-        <div class="contacts-content-info-wrap">
-          <div class="contacts-content-info"> 
-            <div class="contacts-content-info-left"> 
-              <p>Контакты:</p>
-            </div>
-            <div class="contacts-content-info-right">
-              <div class="contacts-content-info-item"><img src="./img/icons/phone.svg" alt="call"><a>+38 (068) 855-51-11 (Viber) </a></div>
-              <div class="contacts-content-info-item"><img src="./img/icons/phone.svg" alt="call"><a href="tel:+380982568996">+38 (098) 256-89-96</a></div>
-              <div class="contacts-content-info-item"> <img src="./img/icons/mail.svg" alt="call"><a href="mailto:Eurostaffgroup@gmail.com">Eurostaffgroup@gmail.com</a></div>
-            </div>
-          </div>
-          <div class="contacts-content-info"> 
-            <div class="contacts-content-info-left"> 
-              <p>Адрес:</p>
-            </div>
-            <div class="contacts-content-info-right">
-              <div class="contacts-content-info-item"><img src="./img/icons/location.svg" alt="call"><a>г. Харьков, переулок Мало-Панасовский 4/7</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="contacts-content-form-wrapper">
-          <h3 class="contacts-content-form-title">Возникли вопросы, задавай!</h3>
-          <form id="contacts-content-form">
-            <input class="footer-content-right-field" name="name" type="text" placeholder="Имя">
-            <input class="footer-content-right-field" type="text" placeholder="Email">
-            <textarea name="question" placeholder="Вопрос"></textarea>
-            <button class="global-btn global-btn-orange" type="submit">Отправить</button>
-          </form>
-        </div>
-      </div>
-    </div>
     <div class="wrapper"> 
       <h1>Вакансии</h1>
     </div><a id="gotop" href="#" onclick="top.goTop(); return false;" class="scrollTop"></a>
