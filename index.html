@@ -1,1 +1,229 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="/favicon.ico"><link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700" rel="stylesheet"><title>React App</title><link href="/static/css/main.bab428f0.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script type="text/javascript" src="/static/js/main.fb0aa1ca.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eurostaff | Главная</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lora:700&amp;amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&amp;amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="contacts-wrapper fullscreen-background" id="contacts-popup">
+      <div class="contacts"> 
+        <div class="contacts-close"> <i class="fas fa-times"></i></div>
+        <div class="contacts-content"> 
+          <div class="contacts-content-border"> </div>
+          <h1 class="contacts-content-title">Контакты</h1>
+          <h2 class="contacts-content-company">Eurostaff Group LLC</h2>
+          <div class="contacts-content-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+          <div class="contacts-content-info-wrap">
+            <div class="contacts-content-info"> 
+              <div class="contacts-content-info-left"> 
+                <p>Контакты:</p>
+              </div>
+              <div class="contacts-content-info-right">
+                <div class="contacts-content-info-item"><img src="./img/icons/phone.svg" alt="call"><a>+38 (068) 855-51-11 (Viber) </a></div>
+                <div class="contacts-content-info-item"><img src="./img/icons/phone.svg" alt="call"><a href="tel:+380982568996">+38 (098) 256-89-96</a></div>
+                <div class="contacts-content-info-item"> <img src="./img/icons/mail.svg" alt="call"><a href="mailto:Eurostaffgroup@gmail.com">Eurostaffgroup@gmail.com</a></div>
+              </div>
+            </div>
+            <div class="contacts-content-info"> 
+              <div class="contacts-content-info-left"> 
+                <p>Адрес:</p>
+              </div>
+              <div class="contacts-content-info-right">
+                <div class="contacts-content-info-item"><img src="./img/icons/location.svg" alt="call"><a>г. Харьков, переулок Мало-Панасовский 4/7</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="contacts-content-form-wrapper">
+            <h3 class="contacts-content-form-title">Возникли вопросы, задавай!</h3>
+            <form id="contacts-content-form">
+              <input class="footer-content-right-field" name="name" type="text" placeholder="Имя">
+              <input class="footer-content-right-field" type="text" placeholder="Email">
+              <textarea name="question" placeholder="Вопрос"></textarea>
+              <button class="global-btn global-btn-orange" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="wrapper header-wrap">
+        <div class="header-logo"> <a href="index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+        <nav class="header-menu">
+          <ul class="header-menu-list">
+            <li class="header-menu-list-link"><a href="index.html">Главная</a></li>
+            <li class="header-menu-list-link"><a href="about.html">О&nbsp;нас</a></li>
+            <li class="header-menu-list-link"><a href="vacancies.html">Вакансии</a></li>
+            <li class="header-menu-list-link"><a href="customers.html">Заказчику</a></li>
+            <li class="header-menu-list-link"> <a class="contacts-menu-link">Контакты </a></li>
+          </ul>
+        </nav>
+        <div class="header-langs"> <img src="./img/icons/earth.svg" alt="langs">
+          <select class="header-langs-select">
+            <option value="RU">RU</option>
+            <option value="EN">EN </option>
+          </select>
+        </div>
+        <div class="header-contacts"> 
+          <div class="header-contacts-item"><img src="./img/icons/phone.svg" alt="call"><a>+38 (068) 855-51-11 (Viber)</a></div>
+          <div class="header-contacts-item"><img src="./img/icons/phone.svg" alt="call"><a href="tel:+380982568996">+38 (098) 256-89-96</a></div>
+          <div class="header-contacts-item"> <img src="./img/icons/mail.svg" alt="call"><a href="mailto:Eurostaffgroup@gmail.com">Eurostaffgroup@gmail.com</a></div>
+        </div>
+      </div>
+    </header>
+    <div class="header-mobile"> 
+      <div class="header-langs"> <img src="./img/icons/earth.svg" alt="langs">
+        <select class="header-langs-select">
+          <option value="RU">RU</option>
+          <option value="EN">EN </option>
+        </select>
+      </div>
+      <div class="header-logo"> <a href="index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+      <div class="header-langs"> <i class="fas fa-bars"></i></div>
+      <div class="header-mobile-menu">
+        <div class="header-mobile-close"><i class="fas fa-times"></i></div>
+        <div class="header-mobile-links"><a class="header-mobile-links-item" href="index.html">Главная</a><a class="header-mobile-links-item" href="about.html">О&nbsp;нас</a><a class="header-mobile-links-item" href="vacancies.html">Вакансии</a><a class="header-mobile-links-item" href="customers.html">Заказчику</a><a class="header-mobile-links-item contacts-menu-link">Контакты </a></div>
+        <div class="header-mobile-social"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+      </div>
+    </div>
+    <div class="main-fullscreen"> 
+      <div class="main-content-top"> 
+        <p class="main-content-top-text">Eurostaff <br/> group LLC </p>
+        <div class="main-content-top-wrapper">
+          <div class="main-content-top-line"></div>
+          <div class="main-content-top-circle"> </div>
+        </div>
+      </div>
+      <div class="main-content"> 
+        <div class="main-content-border"></div>
+        <h1 class="main-content-title">Работа в Украине с&nbsp;официальным трудоустройством</h1>
+        <div class="main-buttons-wrapper"><a class="global-btn global-btn-orange" href="vacancies.html">Вакансии</a><a class="global-btn global-btn-green" href="customers.html">Заказчику</a></div>
+      </div>
+      <div class="main-content-bottom"> 
+        <div class="main-content-bottom-wrapper">
+          <div class="main-content-bottom-circle"></div>
+          <div class="main-content-bottom-line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="what-we-do"> 
+      <div class="what-we-do-content wrapper"></div>
+      <div class="what-we-do-title">
+        <div class="what-we-do-title-border"></div>
+        <h1 class="what-we-do-title-text">Что мы предлагаем?</h1>
+        <p class="what-we-do-title-content">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+      </div>
+      <div class="what-we-do-circles wrapper"> 
+            <div class="what-we-do-circles-item"> 
+              <div class="what-we-do-circles-wrapper"><img src="./img/main/warranty.svg" alt="circle"></div>
+              <p class="what-we-do-circles-text">Легальное трудоустройство</p>
+            </div>
+            <div class="what-we-do-circles-item"> 
+              <div class="what-we-do-circles-wrapper"><img src="./img/main/house.svg" alt="circle"></div>
+              <p class="what-we-do-circles-text">Проживание</p>
+            </div>
+            <div class="what-we-do-circles-item"> 
+              <div class="what-we-do-circles-wrapper"><img src="./img/main/salary.svg" alt="circle"></div>
+              <p class="what-we-do-circles-text">Достойная ЗП</p>
+            </div>
+            <div class="what-we-do-circles-item"> 
+              <div class="what-we-do-circles-wrapper"><img src="./img/main/law.svg" alt="circle"></div>
+              <p class="what-we-do-circles-text">Юридическое сопровождение</p>
+            </div>
+            <div class="what-we-do-circles-item"> 
+              <div class="what-we-do-circles-wrapper"><img src="./img/main/shield.svg" alt="circle"></div>
+              <p class="what-we-do-circles-text">Медицинская страховка</p>
+            </div>
+            <div class="what-we-do-circles-item"> 
+              <div class="what-we-do-circles-wrapper"><img src="./img/main/flag.svg" alt="circle"></div>
+              <p class="what-we-do-circles-text">Возможность работы в ЕС</p>
+            </div>
+      </div>
+      <div class="main-buttons-wrapper"><a class="global-btn global-btn-orange" href="vacancies.html">Вакансии</a><a class="global-btn global-btn-green" href="customers.html">Заказчику</a></div>
+    </div>
+    <div class="workers"> 
+      <div class="workers-item wrapper">
+        <div class="workers-item-left">
+          <div class="workers-item-border"> </div>
+          <h2 class="workers-item-title">Работнику</h2>
+          <p class="workers-item-text">
+             Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+            Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. 
+            Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. 
+            Эта парадигматическая страна, в которой  предложения залетают прямо в рот. 
+          </p>
+          <p class="workers-item-text">
+             Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. 
+            Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики. 
+            Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст 
+            не дал сбить себя с толку. 
+          </p><a class="global-btn global-btn-orange workers-item-left-btn" href="vacancies.html">Вакансии</a>
+        </div>
+        <div class="workers-item-right"> <img class="workers-item-right-image" src="./img/main/11.jpg" alt="Вакансии"></div>
+      </div>
+      <div class="workers-item wrapper">
+        <div class="workers-item-left">
+          <div class="workers-item-border"> </div>
+          <h2 class="workers-item-title">Заказчику</h2>
+          <p class="workers-item-text">
+             Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+            Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. 
+            Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. 
+            Эта парадигматическая страна, в которой  предложения залетают прямо в рот. 
+          </p>
+          <p class="workers-item-text">
+             Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. 
+            Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики. 
+            Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст 
+            не дал сбить себя с толку. 
+          </p><a class="global-btn global-btn-green workers-item-left-btn" href="customers.html">Заказчику</a>
+        </div>
+        <div class="workers-item-right"> <img class="workers-item-right-image" src="./img/main/22.jpg" alt="Заказчику"></div>
+      </div>
+    </div><a id="gotop" href="#" onclick="top.goTop(); return false;" class="scrollTop"></a>
+    <div class="footer">
+      <div class="footer-content wrapper">
+        <div class="footer-content-left"> 
+          <h3 class="footer-content-left-title">Eurostaff Group LLC</h3>
+          <div class="footer-contacts-wrap">
+            <div class="footer-contacts">
+              <p class="footer-contacts-title">Контакты:</p>
+              <div class="footer-contacts-item"><img src="./img/icons/phone.svg" alt="call"><a>+38 (068) 855-51-11 (Viber)</a></div>
+              <div class="footer-contacts-item"><img src="./img/icons/phone.svg" alt="call"><a href="tel:+380982568996">+38 (098) 256-89-96</a></div>
+              <div class="footer-contacts-item"> <img src="./img/icons/mail.svg" alt="call"><a href="mailto:Eurostaffgroup@gmail.com">Eurostaffgroup@gmail.com</a></div>
+            </div>
+            <div class="footer-contacts footer-address">
+              <p class="footer-contacts-title">Адрес:</p>
+              <div class="footer-contacts-item"><img src="./img/icons/location.svg" alt="call"><a>г. Харьков, переулок <br /> Мало-Панасовский 4/7</a></div>
+            </div>
+          </div>
+          <div class="footer-icons"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+          <nav class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-menu-list-link"><a href="index.html">Главная</a></li>
+              <li class="footer-menu-list-link"><a href="about.html">О&nbsp;нас</a></li>
+              <li class="footer-menu-list-link"><a href="vacancies.html">Вакансии</a></li>
+              <li class="footer-menu-list-link"> <a href="customers.html">Заказчику</a></li>
+              <li class="footer-menu-list-link"> <a class="contacts-menu-link">Контакты </a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-content-right">
+          <h3 class="footer-content-right-title">Возникли вопросы, задавай!</h3>
+          <form id="footer-content-form">
+            <input class="footer-content-right-field" name="name" type="text" placeholder="Имя">
+            <input class="footer-content-right-field" type="text" placeholder="Email">
+            <textarea name="question" placeholder="Вопрос"></textarea>
+            <button class="global-btn global-btn-orange" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
