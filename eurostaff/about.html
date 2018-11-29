@@ -5,18 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lora:700&amp;amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&amp;amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="contacts-wrapper fullscreen-background">
+    <div class="contacts-wrapper fullscreen-background" id="contacts-popup">
       <div class="contacts"> 
         <div class="contacts-close"> <i class="fas fa-times"></i></div>
         <div class="contacts-content"> 
           <div class="contacts-content-border"> </div>
           <h1 class="contacts-content-title">Контакты</h1>
           <h2 class="contacts-content-company">Eurostaff Group LLC</h2>
-          <div class="contacts-content-icons"> <a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+          <div class="contacts-content-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
           <div class="contacts-content-info-wrap">
             <div class="contacts-content-info"> 
               <div class="contacts-content-info-left"> 
@@ -57,7 +58,7 @@
             <li class="header-menu-list-link"><a href="index.html">Главная</a></li>
             <li class="header-menu-list-link"><a href="about.html">О&nbsp;нас</a></li>
             <li class="header-menu-list-link"><a href="vacancies.html">Вакансии</a></li>
-            <li class="header-menu-list-link"> <a href="customers.html">Заказчику</a></li>
+            <li class="header-menu-list-link"><a href="customers.html">Заказчику</a></li>
             <li class="header-menu-list-link"> <a class="contacts-menu-link">Контакты </a></li>
           </ul>
         </nav>
@@ -74,6 +75,21 @@
         </div>
       </div>
     </header>
+    <div class="header-mobile"> 
+      <div class="header-langs"> <img src="./img/icons/earth.svg" alt="langs">
+        <select class="header-langs-select">
+          <option value="RU">RU</option>
+          <option value="EN">EN </option>
+        </select>
+      </div>
+      <div class="header-logo"> <a href="index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+      <div class="header-langs"> <i class="fas fa-bars"></i></div>
+      <div class="header-mobile-menu">
+        <div class="header-mobile-close"><i class="fas fa-times"></i></div>
+        <div class="header-mobile-links"><a class="header-mobile-links-item" href="index.html">Главная</a><a class="header-mobile-links-item" href="about.html">О&nbsp;нас</a><a class="header-mobile-links-item" href="vacancies.html">Вакансии</a><a class="header-mobile-links-item" href="customers.html">Заказчику</a><a class="header-mobile-links-item contacts-menu-link">Контакты </a></div>
+        <div class="header-mobile-social"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+      </div>
+    </div>
     <div class="about-info">
       <div class="about-info-content wrapper"> 
         <div class="about-info-border"> </div>
@@ -82,7 +98,7 @@
           Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
           Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. 
           Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. 
-          Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. 
+          Эта парадигматическая страна, в которой  предложения залетают прямо в рот. 
         </p>
         <p class="about-info-text">
           Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. 
@@ -133,7 +149,7 @@
                 <p class="what-we-do-circles-text">Более 1000 работников</p>
               </div>
               <div class="what-we-do-circles-item"> 
-                <div class="what-we-do-circles-wrapper"><img src="./img/about/outsourcing.svg" alt="circle"></div>
+                <div class="what-we-do-circles-wrapper"><img src="./img/about/visitor.svg" alt="circle"></div>
                 <p class="what-we-do-circles-text">Более 50 постоянных заказчиков</p>
               </div>
               <div class="what-we-do-circles-item"> 
@@ -162,7 +178,7 @@
               <div class="footer-contacts-item"><img src="./img/icons/location.svg" alt="call"><a>г. Харьков, переулок <br /> Мало-Панасовский 4/7</a></div>
             </div>
           </div>
-          <div class="footer-icons"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+          <div class="footer-icons"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
           <nav class="footer-menu">
             <ul class="footer-menu-list">
               <li class="footer-menu-list-link"><a href="index.html">Главная</a></li>

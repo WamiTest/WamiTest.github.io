@@ -5,18 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lora:700&amp;amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&amp;amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="contacts-wrapper fullscreen-background">
+    <div class="contacts-wrapper fullscreen-background" id="contacts-popup">
       <div class="contacts"> 
         <div class="contacts-close"> <i class="fas fa-times"></i></div>
         <div class="contacts-content"> 
           <div class="contacts-content-border"> </div>
           <h1 class="contacts-content-title">Контакты</h1>
           <h2 class="contacts-content-company">Eurostaff Group LLC</h2>
-          <div class="contacts-content-icons"> <a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+          <div class="contacts-content-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
           <div class="contacts-content-info-wrap">
             <div class="contacts-content-info"> 
               <div class="contacts-content-info-left"> 
@@ -57,7 +58,7 @@
             <li class="header-menu-list-link"><a href="index.html">Главная</a></li>
             <li class="header-menu-list-link"><a href="about.html">О&nbsp;нас</a></li>
             <li class="header-menu-list-link"><a href="vacancies.html">Вакансии</a></li>
-            <li class="header-menu-list-link"> <a href="customers.html">Заказчику</a></li>
+            <li class="header-menu-list-link"><a href="customers.html">Заказчику</a></li>
             <li class="header-menu-list-link"> <a class="contacts-menu-link">Контакты </a></li>
           </ul>
         </nav>
@@ -74,8 +75,158 @@
         </div>
       </div>
     </header>
-    <div class="wrapper"> 
-      <h1>Вакансии</h1>
+    <div class="header-mobile"> 
+      <div class="header-langs"> <img src="./img/icons/earth.svg" alt="langs">
+        <select class="header-langs-select">
+          <option value="RU">RU</option>
+          <option value="EN">EN </option>
+        </select>
+      </div>
+      <div class="header-logo"> <a href="index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+      <div class="header-langs"> <i class="fas fa-bars"></i></div>
+      <div class="header-mobile-menu">
+        <div class="header-mobile-close"><i class="fas fa-times"></i></div>
+        <div class="header-mobile-links"><a class="header-mobile-links-item" href="index.html">Главная</a><a class="header-mobile-links-item" href="about.html">О&nbsp;нас</a><a class="header-mobile-links-item" href="vacancies.html">Вакансии</a><a class="header-mobile-links-item" href="customers.html">Заказчику</a><a class="header-mobile-links-item contacts-menu-link">Контакты </a></div>
+        <div class="header-mobile-social"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+      </div>
+    </div>
+    <div class="vacancies wrapper">
+      <div class="vacancies-border"></div>
+      <h1 class="vacancies-title">Вакансии</h1>
+      <div class="vacancies-works">
+        <div class="vacancies-works-navigation">
+          <div class="vacancies-select-wrapper">
+            <p class="vacancies-select-text">Категории</p>
+            <select class="vacancies-works-navigation-select">
+              <option value="all">Все </option>
+              <option value="cat1">Категория 1 </option>
+              <option value="cat2">Категория 2</option>
+              <option value="cat3">Категория 3 </option>
+              <option value="cat4">Категория 4 </option>
+            </select>
+          </div>
+              <div class="pagination-wrapper"> <i class="fas fa-angle-left"></i><span class="pagination-page pagination-page-current">1</span><span class="pagination-page">2</span><span class="pagination-page">3</span><span class="pagination-page">4</span><span class="pagination-more">...</span><span class="pagination-page">15</span><i class="fas fa-angle-right"></i></div>
+        </div>
+        <div class="vacancies-works-list"> 
+              <div class="vacancies-works-list-item"> 
+                <div class="vacancy-image-wrapper">
+                  <div class="vacancy-image"> <img src="./img/vacancies/constructing-a-brick-wall.svg" alt="vacancy"></div>
+                  <p class="vacancy-text">Строительные работы</p>
+                </div>
+                <div class="vacancy-content"><a class="vacancy-content-title" href="vacancy.html">Кладка кирпича</a>
+                  <div class="vacancy-content-location"> <img src="./img/vacancies/location-green.svg" alt="location">
+                    <p>Украина</p>
+                  </div>
+                  <p class="vacancy-content-salary">300 - 500 $</p>
+                  <p class="vacancy-content-text">
+                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+                    Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.
+                  </p>
+                </div>
+                <div class="vacancy-button-wrapper">
+                  <div class="vacancy-button"> <a class="global-btn global-btn-orange show-popup-form">Заполнить анкету</a></div>
+                </div>
+              </div>
+              <div class="vacancies-works-list-item"> 
+                <div class="vacancy-image-wrapper">
+                  <div class="vacancy-image"> <img src="./img/vacancies/wiping-swipe-for-floors.svg" alt="vacancy"></div>
+                  <p class="vacancy-text">Клининговые работы</p>
+                </div>
+                <div class="vacancy-content"><a class="vacancy-content-title" href="vacancy.html">Домработница в семью с проживанием</a>
+                  <div class="vacancy-content-location"> <img src="./img/vacancies/location-green.svg" alt="location">
+                    <p>Украина</p>
+                  </div>
+                  <p class="vacancy-content-salary">300 - 500 $</p>
+                  <p class="vacancy-content-text">
+                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+                    Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.
+                  </p>
+                </div>
+                <div class="vacancy-button-wrapper">
+                  <div class="vacancy-button"> <a class="global-btn global-btn-orange show-popup-form">Заполнить анкету</a></div>
+                </div>
+              </div>
+              <div class="vacancies-works-list-item"> 
+                <div class="vacancy-image-wrapper">
+                  <div class="vacancy-image"> <img src="./img/vacancies/vegetables.svg" alt="vacancy"></div>
+                  <p class="vacancy-text">Сельхоз</p>
+                </div>
+                <div class="vacancy-content"><a class="vacancy-content-title" href="vacancy.html">Сбор клубники</a>
+                  <div class="vacancy-content-location"> <img src="./img/vacancies/location-green.svg" alt="location">
+                    <p>Украина</p>
+                  </div>
+                  <p class="vacancy-content-salary">300 - 500 $</p>
+                  <p class="vacancy-content-text">
+                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+                    Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.
+                  </p>
+                </div>
+                <div class="vacancy-button-wrapper">
+                  <div class="vacancy-button"> <a class="global-btn global-btn-orange show-popup-form">Заполнить анкету</a></div>
+                </div>
+              </div>
+              <div class="vacancies-works-list-item"> 
+                <div class="vacancy-image-wrapper">
+                  <div class="vacancy-image"> <img src="./img/vacancies/car.svg" alt="vacancy"></div>
+                  <p class="vacancy-text">Авто</p>
+                </div>
+                <div class="vacancy-content"><a class="vacancy-content-title" href="vacancy.html">Мойщик машин</a>
+                  <div class="vacancy-content-location"> <img src="./img/vacancies/location-green.svg" alt="location">
+                    <p>Украина</p>
+                  </div>
+                  <p class="vacancy-content-salary">300 - 500 $</p>
+                  <p class="vacancy-content-text">
+                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+                    Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.
+                  </p>
+                </div>
+                <div class="vacancy-button-wrapper">
+                  <div class="vacancy-button"> <a class="global-btn global-btn-orange show-popup-form">Заполнить анкету</a></div>
+                </div>
+              </div>
+              <div class="vacancies-works-list-item"> 
+                <div class="vacancy-image-wrapper">
+                  <div class="vacancy-image"> <img src="./img/vacancies/customer-support.svg" alt="vacancy"></div>
+                  <p class="vacancy-text">Услуги</p>
+                </div>
+                <div class="vacancy-content"><a class="vacancy-content-title" href="vacancy.html">Сантехник</a>
+                  <div class="vacancy-content-location"> <img src="./img/vacancies/location-green.svg" alt="location">
+                    <p>Украина</p>
+                  </div>
+                  <p class="vacancy-content-salary">300 - 500 $</p>
+                  <p class="vacancy-content-text">
+                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+                    Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.
+                  </p>
+                </div>
+                <div class="vacancy-button-wrapper">
+                  <div class="vacancy-button"> <a class="global-btn global-btn-orange show-popup-form">Заполнить анкету</a></div>
+                </div>
+              </div>
+              <div class="vacancies-works-list-item"> 
+                <div class="vacancy-image-wrapper">
+                  <div class="vacancy-image"> <img src="./img/vacancies/paint-roller.svg" alt="vacancy"></div>
+                  <p class="vacancy-text">Услуги</p>
+                </div>
+                <div class="vacancy-content"><a class="vacancy-content-title" href="vacancy.html">Маляр - штукатур</a>
+                  <div class="vacancy-content-location"> <img src="./img/vacancies/location-green.svg" alt="location">
+                    <p>Харьков</p>
+                  </div>
+                  <p class="vacancy-content-salary">300 - 500 $</p>
+                  <p class="vacancy-content-text">
+                    Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+                    Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.
+                  </p>
+                </div>
+                <div class="vacancy-button-wrapper">
+                  <div class="vacancy-button"> <a class="global-btn global-btn-orange show-popup-form">Заполнить анкету</a></div>
+                </div>
+              </div>
+        </div>
+        <div class="pagination-bottom">
+              <div class="pagination-wrapper"> <i class="fas fa-angle-left"></i><span class="pagination-page pagination-page-current">1</span><span class="pagination-page">2</span><span class="pagination-page">3</span><span class="pagination-page">4</span><span class="pagination-more">...</span><span class="pagination-page">15</span><i class="fas fa-angle-right"></i></div>
+        </div>
+      </div>
     </div><a id="gotop" href="#" onclick="top.goTop(); return false;" class="scrollTop"></a>
     <div class="footer">
       <div class="footer-content wrapper">
@@ -93,7 +244,7 @@
               <div class="footer-contacts-item"><img src="./img/icons/location.svg" alt="call"><a>г. Харьков, переулок <br /> Мало-Панасовский 4/7</a></div>
             </div>
           </div>
-          <div class="footer-icons"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+          <div class="footer-icons"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
           <nav class="footer-menu">
             <ul class="footer-menu-list">
               <li class="footer-menu-list-link"><a href="index.html">Главная</a></li>
@@ -113,6 +264,117 @@
             <button class="global-btn global-btn-orange" type="submit">Отправить</button>
           </form>
         </div>
+      </div>
+    </div>
+    <div id="form-popup"> 
+      <div class="contacts"> 
+        <div class="contacts-close"> <i class="fas fa-times"></i></div>
+        <div class="contacts-content">
+          <div class="contacts-content-border"> </div>
+          <h1 class="form-title">Заполнить анкету</h1>
+        </div>
+        <form class="form-content">
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Имя</p><span class="star star-orange">*</span>
+                </div>
+                <div class="input-right">
+                  <input type="text" placeholder="">
+                </div>
+              </div>
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Фамилия</p><span class="star star-orange">*</span>
+                </div>
+                <div class="input-right">
+                  <input type="text" placeholder="">
+                </div>
+              </div>
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Дата рождения</p><span class="star star-orange">*</span>
+                </div>
+                <div class="input-right">
+                  <input class="empty-calendar" type="date" id="calendar-input">
+                </div>
+              </div>
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Гражданство</p><span class="star star-orange">*</span>
+                </div>
+                <div class="input-right">
+                  <input type="text" placeholder="">
+                </div>
+              </div>
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Город проживания</p><span class="star star-hide">*</span>
+                </div>
+                <div class="input-right">
+                  <input type="text" placeholder="">
+                </div>
+              </div>
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Желаемый вид деятельности</p><span class="star star-orange">*</span>
+                </div>
+                <div class="input-right">
+                  <input type="text" placeholder="">
+                </div>
+              </div>
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Желаемая ЗП в $</p><span class="star star-hide">*</span>
+                </div>
+                <div class="input-right">
+                  <input type="text" placeholder="">
+                </div>
+              </div>
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Знание иностранного языка</p><span class="star star-orange">*</span>
+                </div>
+                <div class="input-right">
+                  <input type="text" placeholder="">
+                </div>
+              </div>
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Биометрический паспотр:</p><span class="star star-orange">*</span>
+                </div>
+                <div class="input-right">
+                  <div class="checkboxs-wrapper">
+                    <label class="checkbox-wrap">Да
+                      <input type="radio" name="passport"><span class="checkmark checkbox-orange"></span>
+                    </label>
+                    <label class="checkbox-wrap">Нет
+                      <input type="radio" name="passport"><span class="checkmark checkbox-orange"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Номер телефона</p><span class="star star-orange">*</span>
+                </div>
+                <div class="input-right">
+                  <input type="text" placeholder="+38 (___) ___-__-__">
+                </div>
+              </div>
+              <div class="input-wrapper"> 
+                <div class="input-left"> 
+                  <p class="input-left-name">Email</p><span class="star star-hide">*</span>
+                </div>
+                <div class="input-right">
+                  <input type="text" placeholder="">
+                </div>
+              </div>
+          <div class="form-required"> 
+            <div class="form-required-star form-required-star-orange">*</div>
+            <div class="form-required-text">- Обязательные поля</div>
+          </div>
+          <button class="global-btn global-btn-orange form-submit-btn" type="submit">отправить</button>
+        </form>
       </div>
     </div>
     <script src="js/jquery.js"></script>
