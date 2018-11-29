@@ -1,1 +1,220 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('\'2f 1I\';5 d=\'#1Q\';5 p=b.Y(\'.I-X-1u-1c a\');5 r=b.Y(\'.25-X-1u-1c a\');5 l=b.Y(\'.I-15-1J a\');5 1F=f.1M.1Y.1E(\'/\',\'\').1E(\'.2a\',\'\');6(p.u&&r.u){2e(1F){1b\'2c\':p[1].7.c=d;r[1].7.c=d;6(l.u)l[1].7.c=d;13;1b\'2b\':p[2].7.c=d;r[2].7.c=d;6(l.u)l[2].7.c=d;13;1b\'28\':p[3].7.c=d;r[3].7.c=d;6(l.u)l[3].7.c=d;13;26:p[0].7.c=d;r[0].7.c=d;6(l.u)l[0].7.c=d;13}}5 Q=$(\'.I-24 .N.L-23\');5 C=$(\'.I-15-D .N.L-17\');5 14=$(\'.I-15-X\');6(Q){Q.t(\'s\',e(q){C.9(\'8\',\'20\');14.9(\'8\',\'v\');C.t(\'s\',e(q){Q.9(\'8\',\'v\');C.9(\'8\',\'n\');14.9(\'8\',\'n\')})})}(e(){e $(M){J b.1B(M)}e Z(H,F){H=H||0.1;F=F||12;5 1f=0;5 1d=0;5 1a=0;5 16=0;5 19=0;5 1g=0;6(b.R){1f=b.R.1C||0;1d=b.R.k||0}6(b.A){1a=b.A.1C||0;16=b.A.k||0}5 19=f.1W||0;5 1g=f.1V||0;5 x=w.11(19,w.11(1a,1f));5 y=w.11(1g,w.11(16,1d));5 1j=1+H;f.1N(w.1w(x/1j),w.1w(y/1j));6(x>0||y>0){5 1s="1o.Z("+H+", "+F+")";f.V(1s,F)}J O}e k(){5 j=$(\'27\');5 1r=b.A.k||b.R.k;6(1r>1T){6(j.7.8!=\'v\'){j.7.8=\'v\';1q(j,0,1n,1)}}z{j.7.8=\'n\'}J O}e 1q(j,1k,U,18){5 o=1k;1h(j,o);V(W,1);e W(){6(1k<U){o=o+18;6(o<U){V(W,1)}}z{o=o-18;6(o>U){V(W,1)}}1h(j,o)}};e 1h(j,K){j.7.K=K/1n;j.7.1P=\'1H(K=\'+K+\')\'};6(f.T){f.T("1S",k,O);f.T("1R",k,O)}z 6(f.1i){f.1i("1X",k);f.1i("1G",k)}f[\'1o\'][\'Z\']=Z})();5 D=$(\'#g-h .g .g-D i\');5 g=b.Y(\'.g-X-1c\');5 B=$(\'#g-h\');5 h=$(\'#g-h .g\');5 10=e 10(q){6(q.S.M==\'g-h\'||q.S.1t==\'N L-17\'){h.9(\'8\',\'n\');B.9(\'8\',\'n\');p[4].7.c=\'#1K\';r[4].7.c=\'#1L\'}z{J}};g.1O(e(1p,i){1p.T(\'s\',e(){$(f).k(0);h.9(\'8\',\'1x\');B.9(\'8\',\'v\');B.9(\'1y\',b.A.1z+\'1A\');p[4].7.c=d;r[4].7.c=d;6(l.u){C.9(\'8\',\'n\');14.9(\'8\',\'n\')}D.t(\'s\',10);B.t(\'s\',10)})});5 1m=$(\'#G-h .g .g-D i\');5 E=$(\'#G-h\');5 1e=$(\'#G-h .g\');5 1l=$(\'.2d-h-G\');5 P=e P(q){6(q.S.M==\'G-h\'||q.S.1t==\'N L-17\'){1e.9(\'8\',\'n\');E.9(\'8\',\'n\')}z{J}};1l.t(\'s\',e(){$(f).k(0);1e.9(\'8\',\'1x\');E.9(\'8\',\'v\');E.9(\'1y\',b.A.1z+\'1A\');1m.t(\'s\',P);E.t(\'s\',P)});5 m=b.1B(\'m-1U\');6(m){m.1Z=e(){6(m.21===\'\'){m.1D.22("1v-m")}z{m.1D.29("1v-m")}}}',62,140,'|||||var|if|style|display|css||document|color|ACTIVE_COLOR|function|window|contacts|popup||el|scrollTop|linksM|calendar|none|op|linksH|event|linksF|click|on|length|block|Math|||else|body|wrapper|closeMenu|close|wrapperForm|time|form|acceleration|header|return|opacity|fa|id|fas|false|hideForm|openMenu|documentElement|target|addEventListener|endop|setTimeout|slowopacity|menu|querySelectorAll|goTop|hidePopup|max||break|mobileMenu|mobile|by|times|inc|wx|bx|case|link|dy|popupForm|dx|wy|setopacity|attachEvent|speed|startop|formLink|closeForm|100|top|item|smoothopaque|stop|invokeFunction|className|list|empty|floor|flex|height|scrollHeight|px|getElementById|scrollLeft|classList|replace|url|onload|alpha|strict|links|333|E1E1E1|location|scrollTo|forEach|filter|45A490|load|scroll|50|input|scrollY|scrollX|onscroll|pathname|onchange|inline|value|add|bars|langs|footer|default|gotop|customers|remove|html|vacancies|about|show|switch|use'.split('|'),0,{}))
+'use strict';
+/***** Константы  *****/
+
+var ACTIVE_COLOR = '#45A490';
+
+/***** Активные ссылки меню *****/
+var linksH = document.querySelectorAll('.header-menu-list-link a');
+var linksF = document.querySelectorAll('.footer-menu-list-link a');
+var linksM = document.querySelectorAll('.header-mobile-links a');
+var url = window.location.pathname.replace('/', '').replace('.html', '');
+
+if (linksH.length && linksF.length) {
+    switch (url) {
+        case 'about':
+            linksH[1].style.color = ACTIVE_COLOR;
+            linksF[1].style.color = ACTIVE_COLOR;
+            if (linksM.length) linksM[1].style.color = ACTIVE_COLOR;
+            break;
+        case 'vacancies':
+            linksH[2].style.color = ACTIVE_COLOR;
+            linksF[2].style.color = ACTIVE_COLOR;
+            if (linksM.length) linksM[2].style.color = ACTIVE_COLOR;
+            break;
+        case 'customers':
+            linksH[3].style.color = ACTIVE_COLOR;
+            linksF[3].style.color = ACTIVE_COLOR;
+            if (linksM.length) linksM[3].style.color = ACTIVE_COLOR;
+            break;
+        default:
+            linksH[0].style.color = ACTIVE_COLOR;
+            linksF[0].style.color = ACTIVE_COLOR;
+            if (linksM.length) linksM[0].style.color = ACTIVE_COLOR;
+            break;
+    }
+}
+
+/***** Mobile Header *****/
+var openMenu = $('.header-langs .fas.fa-bars');
+var closeMenu = $('.header-mobile-close .fas.fa-times');
+var mobileMenu = $('.header-mobile-menu');
+
+if (openMenu) {
+    openMenu.on('click', function (event) {
+        // openMenu.css('display', 'none'); 
+        closeMenu.css('display', 'inline');
+        mobileMenu.css('display', 'block');
+        // Close menu
+        closeMenu.on('click', function (event) {
+            openMenu.css('display', 'block');
+            closeMenu.css('display', 'none');
+            mobileMenu.css('display', 'none');
+        });
+    });
+}
+
+/***** Scroll to top  *****/
+(function () {
+    function $(id) {
+        return document.getElementById(id);
+    }
+    function goTop(acceleration, time) {
+        acceleration = acceleration || 0.1;
+        time = time || 12;
+
+        var dx = 0;
+        var dy = 0;
+        var bx = 0;
+        var by = 0;
+        var wx = 0;
+        var wy = 0;
+
+        if (document.documentElement) {
+            dx = document.documentElement.scrollLeft || 0;
+            dy = document.documentElement.scrollTop || 0;
+        }
+        if (document.body) {
+            bx = document.body.scrollLeft || 0;
+            by = document.body.scrollTop || 0;
+        }
+        var wx = window.scrollX || 0;
+        var wy = window.scrollY || 0;
+
+        var x = Math.max(wx, Math.max(bx, dx));
+        var y = Math.max(wy, Math.max(by, dy));
+
+        var speed = 1 + acceleration;
+        window.scrollTo(Math.floor(x / speed), Math.floor(y / speed));
+        if (x > 0 || y > 0) {
+            var invokeFunction = "top.goTop(" + acceleration + ", " + time + ")";
+            window.setTimeout(invokeFunction, time);
+        }
+        return false;
+    }
+    function scrollTop() {
+        var el = $('gotop');
+        var stop = document.body.scrollTop || document.documentElement.scrollTop;
+        if (stop > 50) {
+            if (el.style.display != 'block') {
+                el.style.display = 'block';
+                smoothopaque(el, 0, 100, 1);
+            }
+        } else {
+            el.style.display = 'none';
+        }
+        return false;
+    }
+    // Плавная смена прозрачности
+    function smoothopaque(el, startop, endop, inc) {
+        var op = startop;
+        // Устанавливаем прозрачность
+        setopacity(el, op);
+        // Начинаем изменение прозрачности
+        setTimeout(slowopacity, 1);
+        function slowopacity() {
+            if (startop < endop) {
+                op = op + inc;
+                if (op < endop) {
+                    setTimeout(slowopacity, 1);
+                }
+            } else {
+                op = op - inc;
+                if (op > endop) {
+                    setTimeout(slowopacity, 1);
+                }
+            }
+            setopacity(el, op);
+        };
+    };
+    // установка opacity
+    function setopacity(el, opacity) {
+        el.style.opacity = opacity / 100;
+        el.style.filter = 'alpha(opacity=' + opacity + ')';
+    };
+    if (window.addEventListener) {
+        window.addEventListener("scroll", scrollTop, false);
+        window.addEventListener("load", scrollTop, false);
+    } else if (window.attachEvent) {
+        window.attachEvent("onscroll", scrollTop);
+        window.attachEvent("onload", scrollTop);
+    }
+    window['top']['goTop'] = goTop;
+})();
+
+/***** Show contacts popup *****/
+var close = $('#contacts-popup .contacts .contacts-close i');
+var contacts = document.querySelectorAll('.contacts-menu-link');
+var wrapper = $('#contacts-popup');
+var popup = $('#contacts-popup .contacts');
+
+/***** Hide contacts popup *****/
+var hidePopup = function hidePopup(event) {
+    if (event.target.id == 'contacts-popup' || event.target.className == 'fas fa-times') {
+        popup.css('display', 'none');
+        wrapper.css('display', 'none');
+        linksH[4].style.color = '#333';
+        linksF[4].style.color = '#E1E1E1';
+    } else {
+        return;
+    }
+};
+
+contacts.forEach(function (item, i) {
+    item.addEventListener('click', function () {
+        // Open contacts popup functions
+        $(window).scrollTop(0);
+        popup.css('display', 'flex');
+        wrapper.css('display', 'block');
+        wrapper.css('height', document.body.scrollHeight + 'px');
+        linksH[4].style.color = ACTIVE_COLOR;
+        linksF[4].style.color = ACTIVE_COLOR;
+        // Hide mobile menu
+        if (linksM.length) {
+            closeMenu.css('display', 'none');
+            mobileMenu.css('display', 'none');
+        }
+        // Close contacts popup functions
+        close.on('click', hidePopup);
+        wrapper.on('click', hidePopup);
+    });
+});
+
+/***** Show form popup *****/
+var closeForm = $('#form-popup .contacts .contacts-close i');
+var wrapperForm = $('#form-popup');
+var popupForm = $('#form-popup .contacts');
+var formLink = $('.show-popup-form');
+
+/***** Hide form popup *****/
+var hideForm = function hideForm(event) {
+    if (event.target.id == 'form-popup' || event.target.className == 'fas fa-times') {
+        popupForm.css('display', 'none');
+        wrapperForm.css('display', 'none');
+    } else {
+        return;
+    }
+};
+
+/***** Form popup events *****/
+formLink.on('click', function () {
+    // Open form popup functions
+    $(window).scrollTop(0);
+    popupForm.css('display', 'flex');
+    wrapperForm.css('display', 'block');
+    wrapperForm.css('height', document.body.scrollHeight + 'px');
+    // Close form popup functions
+    closeForm.on('click', hideForm);
+    wrapperForm.on('click', hideForm);
+});
+
+/***** Styling input type='date' *****/
+var calendar = document.getElementById('calendar-input');
+if (calendar) {
+    calendar.onchange = function () {
+        if (calendar.value === '') {
+            calendar.classList.add("empty-calendar");
+        } else {
+            calendar.classList.remove("empty-calendar");
+        }
+    };
+}
