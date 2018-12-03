@@ -4,9 +4,8 @@
     <title>Eurostaff | Вакансии</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Lora:700&amp;amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&amp;amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -52,41 +51,43 @@
     </div>
     <header>
       <div class="wrapper header-wrap">
-        <div class="header-logo"> <a href="index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+        <div class="header-logo"> <a href="index.html"><img src="./img/logo.svg" alt="logo"/></a></div>
         <nav class="header-menu">
           <ul class="header-menu-list">
-            <li class="header-menu-list-link"><a href="index.html">Главная</a></li>
-            <li class="header-menu-list-link"><a href="about.html">О&nbsp;нас</a></li>
-            <li class="header-menu-list-link"><a href="vacancies.html">Вакансии</a></li>
-            <li class="header-menu-list-link"><a href="customers.html">Заказчику</a></li>
-            <li class="header-menu-list-link"> <a class="contacts-menu-link">Контакты </a></li>
+            <li class="header-menu-list-link "><a href="index.html">Главная</a></li>
+            <li class="header-menu-list-link "><a href="about.html">О&nbsp;нас</a></li>
+            <li class="header-menu-list-link header-menu-list-link-active"><a href="vacancies.html">Вакансии</a></li>
+            <li class="header-menu-list-link "><a href="customers.html">Заказчику</a></li>
+            <li class="header-menu-list-link"><a class="contacts-menu-link">Контакты </a></li>
           </ul>
         </nav>
-        <div class="header-langs"> <img src="./img/icons/earth.svg" alt="langs">
+        <div class="header-langs"> <img src="./img/icons/earth.svg" alt="langs"/>
           <select class="header-langs-select">
             <option value="RU">RU</option>
             <option value="EN">EN </option>
+            <option value="FR">FR</option>
+            <option value="UZ">UZ</option>
           </select>
         </div>
         <div class="header-contacts"> 
-          <div class="header-contacts-item"><img src="./img/icons/phone.svg" alt="call"><a>+38 (068) 855-51-11 (Viber)</a></div>
-          <div class="header-contacts-item"><img src="./img/icons/phone.svg" alt="call"><a href="tel:+380982568996">+38 (098) 256-89-96</a></div>
-          <div class="header-contacts-item"> <img src="./img/icons/mail.svg" alt="call"><a href="mailto:Eurostaffgroup@gmail.com">Eurostaffgroup@gmail.com</a></div>
+          <div class="header-contacts-item"><img src="./img/icons/phone.svg" alt="call"/><a>+38 (068) 855-51-11 ( <img src="./img/icons/telegram-black.svg"/><img src="./img/icons/whatsapp-black.svg"/><img src="./img/icons/viber-black.svg"/> )</a></div>
+          <div class="header-contacts-item"><img src="./img/icons/phone.svg" alt="call"/><a href="tel:+380982568996">+38 (068) 855-51-11</a></div>
+          <div class="header-contacts-item"> <img src="./img/icons/mail.svg" alt="call"/><a href="mailto:Eurostaffgroup@gmail.com">Eurostaffgroup@gmail.com</a></div>
         </div>
       </div>
     </header>
     <div class="header-mobile"> 
-      <div class="header-langs"> <img src="./img/icons/earth.svg" alt="langs">
+      <div class="header-langs"> <img src="./img/icons/earth.svg" alt="langs"/>
         <select class="header-langs-select">
           <option value="RU">RU</option>
           <option value="EN">EN </option>
         </select>
       </div>
-      <div class="header-logo"> <a href="index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+      <div class="header-logo"> <a href="index.html"><img src="./img/logo.svg" alt="logo"/></a></div>
       <div class="header-langs"> <i class="fas fa-bars"></i></div>
       <div class="header-mobile-menu">
         <div class="header-mobile-close"><i class="fas fa-times"></i></div>
-        <div class="header-mobile-links"><a class="header-mobile-links-item" href="index.html">Главная</a><a class="header-mobile-links-item" href="about.html">О&nbsp;нас</a><a class="header-mobile-links-item" href="vacancies.html">Вакансии</a><a class="header-mobile-links-item" href="customers.html">Заказчику</a><a class="header-mobile-links-item contacts-menu-link">Контакты </a></div>
+        <div class="header-mobile-links"><a class="header-mobile-links-item " href="index.html">Главная</a><a class="header-mobile-links-item " href="about.html">О&nbsp;нас</a><a class="header-mobile-links-item header-mobile-links-item-active" href="vacancies.html">Вакансии</a><a class="header-mobile-links-item " href="customers.html">Заказчику</a><a class="header-mobile-links-item contacts-menu-link">Контакты </a></div>
         <div class="header-mobile-social"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
       </div>
     </div>
@@ -235,22 +236,22 @@
           <div class="footer-contacts-wrap">
             <div class="footer-contacts">
               <p class="footer-contacts-title">Контакты:</p>
-              <div class="footer-contacts-item"><img src="./img/icons/phone.svg" alt="call"><a>+38 (068) 855-51-11 (Viber)</a></div>
-              <div class="footer-contacts-item"><img src="./img/icons/phone.svg" alt="call"><a href="tel:+380982568996">+38 (098) 256-89-96</a></div>
-              <div class="footer-contacts-item"> <img src="./img/icons/mail.svg" alt="call"><a href="mailto:Eurostaffgroup@gmail.com">Eurostaffgroup@gmail.com</a></div>
+              <div class="footer-contacts-item"><img src="./img/icons/phone.svg" alt="call"/><a>+38 (068) 855-51-11 ( <img src="./img/icons/telegram.svg"/><img src="./img/icons/whatsapp.svg"/><img src="./img/icons/viber.svg"/> )</a></div>
+              <div class="footer-contacts-item"><img src="./img/icons/phone.svg" alt="call"/><a href="tel:+380982568996">+38 (068) 855-51-11</a></div>
+              <div class="footer-contacts-item"> <img src="./img/icons/mail.svg" alt="call"/><a href="mailto:Eurostaffgroup@gmail.com">Eurostaffgroup@gmail.com</a></div>
             </div>
             <div class="footer-contacts footer-address">
               <p class="footer-contacts-title">Адрес:</p>
-              <div class="footer-contacts-item"><img src="./img/icons/location.svg" alt="call"><a>г. Харьков, переулок <br /> Мало-Панасовский 4/7</a></div>
+              <div class="footer-contacts-item"><img src="./img/icons/location.svg" alt="call"/><a>г. Харьков, переулок <br /> Мало-Панасовский 4/7</a></div>
             </div>
           </div>
           <div class="footer-icons"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
           <nav class="footer-menu">
             <ul class="footer-menu-list">
-              <li class="footer-menu-list-link"><a href="index.html">Главная</a></li>
-              <li class="footer-menu-list-link"><a href="about.html">О&nbsp;нас</a></li>
-              <li class="footer-menu-list-link"><a href="vacancies.html">Вакансии</a></li>
-              <li class="footer-menu-list-link"> <a href="customers.html">Заказчику</a></li>
+              <li class="footer-menu-list-link "><a href="index.html">Главная</a></li>
+              <li class="footer-menu-list-link "><a href="about.html">О&nbsp;нас</a></li>
+              <li class="footer-menu-list-link footer-menu-list-link-active"><a href="vacancies.html">Вакансии</a></li>
+              <li class="footer-menu-list-link "><a href="customers.html">Заказчику</a></li>
               <li class="footer-menu-list-link"> <a class="contacts-menu-link">Контакты </a></li>
             </ul>
           </nav>
@@ -258,8 +259,8 @@
         <div class="footer-content-right">
           <h3 class="footer-content-right-title">Возникли вопросы, задавай!</h3>
           <form id="footer-content-form">
-            <input class="footer-content-right-field" name="name" type="text" placeholder="Имя">
-            <input class="footer-content-right-field" type="text" placeholder="Email">
+            <input class="footer-content-right-field" name="name" type="text" placeholder="Имя"/>
+            <input class="footer-content-right-field" type="text" placeholder="Email"/>
             <textarea name="question" placeholder="Вопрос"></textarea>
             <button class="global-btn global-btn-orange" type="submit">Отправить</button>
           </form>

@@ -7,32 +7,6 @@ var ACTIVE_COLOR = '#45A490';
 var linksH = document.querySelectorAll('.header-menu-list-link a');
 var linksF = document.querySelectorAll('.footer-menu-list-link a');
 var linksM = document.querySelectorAll('.header-mobile-links a');
-var url = window.location.pathname.replace('/', '').replace('.html', '');
-
-if (linksH.length && linksF.length) {
-    switch (url) {
-        case 'about':
-            linksH[1].style.color = ACTIVE_COLOR;
-            linksF[1].style.color = ACTIVE_COLOR;
-            if (linksM.length) linksM[1].style.color = ACTIVE_COLOR;
-            break;
-        case 'vacancies':
-            linksH[2].style.color = ACTIVE_COLOR;
-            linksF[2].style.color = ACTIVE_COLOR;
-            if (linksM.length) linksM[2].style.color = ACTIVE_COLOR;
-            break;
-        case 'customers':
-            linksH[3].style.color = ACTIVE_COLOR;
-            linksF[3].style.color = ACTIVE_COLOR;
-            if (linksM.length) linksM[3].style.color = ACTIVE_COLOR;
-            break;
-        default:
-            linksH[0].style.color = ACTIVE_COLOR;
-            linksF[0].style.color = ACTIVE_COLOR;
-            if (linksM.length) linksM[0].style.color = ACTIVE_COLOR;
-            break;
-    }
-}
 
 /***** Mobile Header *****/
 var openMenu = $('.header-langs .fas.fa-bars');
@@ -40,12 +14,12 @@ var closeMenu = $('.header-mobile-close .fas.fa-times');
 var mobileMenu = $('.header-mobile-menu');
 
 if (openMenu) {
-    openMenu.on('click', function (event) {
+    openMenu.on('click', function () {
         // openMenu.css('display', 'none'); 
         closeMenu.css('display', 'inline');
         mobileMenu.css('display', 'block');
         // Close menu
-        closeMenu.on('click', function (event) {
+        closeMenu.on('click', function () {
             openMenu.css('display', 'block');
             closeMenu.css('display', 'none');
             mobileMenu.css('display', 'none');
@@ -141,7 +115,7 @@ if (openMenu) {
     window['top']['goTop'] = goTop;
 })();
 
-/***** Show contacts popup *****/
+/***** Contacts popup *****/
 var close = $('#contacts-popup .contacts .contacts-close i');
 var contacts = document.querySelectorAll('.contacts-menu-link');
 var wrapper = $('#contacts-popup');
@@ -159,6 +133,7 @@ var hidePopup = function hidePopup(event) {
     }
 };
 
+/***** Show contacts popup *****/
 contacts.forEach(function (item, i) {
     item.addEventListener('click', function () {
         // Open contacts popup functions
@@ -179,7 +154,7 @@ contacts.forEach(function (item, i) {
     });
 });
 
-/***** Show form popup *****/
+/***** Form popup *****/
 var closeForm = $('#form-popup .contacts .contacts-close i');
 var wrapperForm = $('#form-popup');
 var popupForm = $('#form-popup .contacts');
@@ -218,3 +193,19 @@ if (calendar) {
         }
     };
 }
+
+/***** Class for different languages *****/
+
+// Customers image
+// .msg.customers 
+// .customers-img-rus 
+// .customers-img-eng 
+// .customers-img-fr 
+// .customers-img-uzb 
+
+// About us 
+// .about-map-wrapper
+// .about-map-rus
+// .about-map-eng
+// .about-map-fr
+// .about-map-uzb
